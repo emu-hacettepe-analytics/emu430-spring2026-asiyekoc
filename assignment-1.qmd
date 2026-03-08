@@ -11,7 +11,7 @@ My first assignment has two parts.
 ```{r}
 library(dslabs)
 data(polls_us_election_2016)
-head(polls_us_election_2016)
+polls_us_election_2016
 ```
 
 ```{r}
