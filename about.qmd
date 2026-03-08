@@ -5,26 +5,26 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2021 - ongoing.
 
 # Work Experience
 
-## Employements
-
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
-
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+1.  TÜBİTAK BİLGEM, Contracts Department Candidate Researcher, October 2025 - ongoing
 
-2.  Firm bbb, position yyy, year yyy
+2.  ASELSAN, Intern, August 2025 - September 2025
 
-# Projects
+3.  Turkish Aerospace, Business Analytics Department Candidate Engineer, December 2024, July 2025
+
+4.  Zyrone Dynamics, Intern, July 2024 - August 2024
 
 # Competencies
 
-R, Quarto, Git, Python
+Power BI, SQL
 
 # Hobbies
+
+Reading books, discovering new places
+
+[Click here to download my CV (PDF)](Ozgecmis.pdf)
