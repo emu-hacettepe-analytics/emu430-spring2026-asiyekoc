@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
 
-website:
+website: 
   title: "Asiye Koç's Analytics Lab"
   navbar:
     search: true
