@@ -4,12 +4,73 @@ title: "Assignment 1"
 
 # Assignment 1
 
-```{r}
-1 + 1
-```
-
 My first assignment has two parts.
 
-## (a)
+## (b)
+
+```{r}
+library(dslabs)
+data(polls_us_election_2016)
+polls_us_election_2016
+```
+
+```{r}
+my_first <- "Asiye"
+my_birth_year <- 2003
+print(paste("My first name is", my_first))
+print(paste("My birth year is", my_birth_year))
+```
+
+```{r}
+k <- as.integer((nchar(my_first) + my_birth_year) %% 15 + 8)
+if (k %% 2 == 0) {
+  head(polls_us_election_2016, k)
+} else {
+  tail(polls_us_election_2016, k)
+}
+```
+
+```{r}
+sum(is.na(polls_us_election_2016))
+
+column_Na <- colSums(is.na(polls_us_election_2016))
+
+sorted_Na <- sort(column_Na, decreasing = TRUE)
+
+head(sorted_Na, 8)
+
+```
+
+```{r}
+polls_modified <- polls_us_election_2016
+
+for(i in 1:ncol(polls_modified)) {
+  
+  if(is.numeric(polls_modified[[i]])) {
+    polls_modified[[i]] <- ifelse(is.na(polls_modified[[i]]), 
+                                  my_birth_year + k, 
+                                  polls_modified[[i]])
+    
+  } else if(is.character(polls_modified[[i]]) | is.factor(polls_modified[[i]])) {
+    polls_modified[[i]] <- ifelse(is.na(polls_modified[[i]]), paste0(my_first, "_", k), polls_modified[[i]])
+  }
+}
+if (k %% 2 == 0) {
+  head(polls_modified, k)
+} else {
+  tail(polls_modified, k)
+}
+```
+
+```{r}
+total_na_remaining <- sum(is.na(polls_modified))
+print(paste("Total of NA values remaining is:", total_na_remaining))
+```
+
+Since there is no NA value remaining this function will gonna be FALSE
+
+```{r}
+anyNA(polls_modified)
+```
 
 ## (b)
