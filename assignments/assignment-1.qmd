@@ -19,6 +19,8 @@ my_first <- "Asiye"
 my_birth_year <- 2003
 print(paste("My first name is", my_first))
 print(paste("My birth year is", my_birth_year))
+k <- as.integer((nchar(my_first) + my_birth_year) %% 15 + 8)
+print(paste("The k value is:", k))
 ```
 
 ```{r}
@@ -31,7 +33,7 @@ if (k %% 2 == 0) {
 ```
 
 ```{r}
-sum(is.na(polls_us_election_2016))
+print(paste("The total number of NA values is:", sum(is.na(polls_us_election_2016))))
 
 column_Na <- colSums(is.na(polls_us_election_2016))
 
@@ -40,6 +42,7 @@ sorted_Na <- sort(column_Na, decreasing = TRUE)
 head(sorted_Na, 8)
 
 ```
+I used AI to help me build this loop. The prompt I used was: I have a dataset in R and I want to fill the NA values based on the column type. How can I set up a loop that puts a specific number if the column is numeric, and a specific string if it's text or a factor? I also want to keep the original data frame intact.
 
 ```{r}
 polls_modified <- polls_us_election_2016
@@ -64,7 +67,7 @@ if (k %% 2 == 0) {
 
 ```{r}
 total_na_remaining <- sum(is.na(polls_modified))
-print(paste("Total of NA values remaining is:", total_na_remaining))
+print(paste("The total number of NA values remaining is:", total_na_remaining))
 ```
 
 Since there is no NA value remaining this function will gonna be FALSE
