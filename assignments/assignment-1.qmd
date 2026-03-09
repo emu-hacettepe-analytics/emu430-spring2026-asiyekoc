@@ -62,7 +62,7 @@ head(sorted_Na, 8)
 
 ```
 
-*\*\*I used AI to help me build this loop. The prompt I used was: I have a dataset in R and I want to fill the NA values based on the column type. How can I set up a loop that puts a specific number if the column is numeric, and a specific string if it's text or a factor? I also want to keep the original data frame intact.*
+*-\> I used AI to help me build this loop. The prompt I used was: I have a dataset in R and I want to fill the NA values based on the column type. How can I set up a loop that puts a specific number if the column is numeric, and a specific string if it's text or a factor? I also want to keep the original data frame intact.*
 
 ```{r}
 polls_modified <- polls_us_election_2016
