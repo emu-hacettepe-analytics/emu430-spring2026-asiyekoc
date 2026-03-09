@@ -8,3 +8,5 @@ Hello! My name is Asiye Koç. 👋
 This is my personal webpage. 💻
 
 Please stay tuned to follow my works on data analytics, blog posts, and more. 📊✨
+
+![](welcome.gif){width="35%" fig-align="center"}
