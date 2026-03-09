@@ -374,11 +374,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#assignment-1" id="toc-assignment-1" class="nav-link active" data-scroll-target="#assignment-1">Assignment 1</a>
-  <ul class="collapse">
-  <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b">(b)</a></li>
-  <li><a href="#b-1" id="toc-b-1" class="nav-link" data-scroll-target="#b-1">(b)</a></li>
-  </ul></li>
+  <li><a href="#a-summary-of-conversations-on-data-science-and-industrial-engineering---cem-vardar-erdi-daşdemir" id="toc-a-summary-of-conversations-on-data-science-and-industrial-engineering---cem-vardar-erdi-daşdemir" class="nav-link active" data-scroll-target="#a-summary-of-conversations-on-data-science-and-industrial-engineering---cem-vardar-erdi-daşdemir">(a) Summary of Conversations on Data Science and Industrial Engineering - Cem Vardar &amp; Erdi Daşdemir</a></li>
+  <li><a href="#b-r-scripts-and-outputs" id="toc-b-r-scripts-and-outputs" class="nav-link" data-scroll-target="#b-r-scripts-and-outputs">(b) R Scripts and Outputs</a></li>
   </ul>
 </nav>
 </nav>
@@ -409,11 +406,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="assignment-1" class="level1">
-<h1>Assignment 1</h1>
 <p>My first assignment has two parts.</p>
-<section id="b" class="level2">
-<h2 class="anchored" data-anchor-id="b">(b)</h2>
+<section id="a-summary-of-conversations-on-data-science-and-industrial-engineering---cem-vardar-erdi-daşdemir" class="level2">
+<h2 class="anchored" data-anchor-id="a-summary-of-conversations-on-data-science-and-industrial-engineering---cem-vardar-erdi-daşdemir">(a) Summary of Conversations on Data Science and Industrial Engineering - Cem Vardar &amp; Erdi Daşdemir</h2>
+<p>This conversation covered many different points about data science and industrial engineering. First, general explanations about engineering were given. Then, it focused on the complex problems that make industrial engineering different from other engineering fields and how these problems can be solved by breaking them into smaller parts. After that, the requirements of data science and the skills of industrial engineers that match with data science were discussed. The conversation also mentioned different branches of data science, such as generalist data science, predictive modeling data science, and machine learning data science, and explained the areas and methods they use. Finally, the technical and soft skills a data scientist should have (like analytical thinking and problem-solving) were discussed.</p>
+<p>The conversation was very clear and well-organized, and it was really informative and helpful.</p>
+<p><strong>Questions:</strong></p>
+<p><strong>1-)</strong> Why have data science methods become very popular in recent years? Explain one or more reasons.</p>
+<p><strong>Answer:</strong> Data is collected in very large amounts. This makes systems more complex and harder to control. To handle these complex data sets, the use of data science methods has become common.</p>
+<p><strong>2-)</strong>Which of the following is NOT a quality sought in a data scientist?<br>
+A-)Analytical thinking, ability to define problems based on data, and draw conclusions<br>
+B-) Problem-solving skills<br>
+C-) Basic probability and statistics skills<br>
+D-) Communication skills<br>
+E-) Only having strong programming skills</p>
+<p><strong>Answer:</strong> Only having strong programming skills</p>
+</section>
+<section id="b-r-scripts-and-outputs" class="level2">
+<h2 class="anchored" data-anchor-id="b-r-scripts-and-outputs">(b) R Scripts and Outputs</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dslabs)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(polls_us_election_2016)</span>
@@ -581,7 +591,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
              429                1                0                0 </code></pre>
 </div>
 </div>
-<p>I used AI to help me build this loop. The prompt I used was: I have a dataset in R and I want to fill the NA values based on the column type. How can I set up a loop that puts a specific number if the column is numeric, and a specific string if it’s text or a factor? I also want to keep the original data frame intact.</p>
+<p><em>**I used AI to help me build this loop. The prompt I used was: I have a dataset in R and I want to fill the NA values based on the column type. How can I set up a loop that puts a specific number if the column is numeric, and a specific string if it’s text or a factor? I also want to keep the original data frame intact.</em></p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>polls_modified <span class="ot">&lt;-</span> polls_us_election_2016</span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -684,12 +694,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
-</section>
-<section id="b-1" class="level2">
-<h2 class="anchored" data-anchor-id="b-1">(b)</h2>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

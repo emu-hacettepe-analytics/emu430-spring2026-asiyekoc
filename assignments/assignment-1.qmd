@@ -2,11 +2,30 @@
 title: "Assignment 1"
 ---
 
-# Assignment 1
-
 My first assignment has two parts.
 
-## (b)
+## (a) Summary of Conversations on Data Science and Industrial Engineering - Cem Vardar & Erdi Daşdemir
+
+This conversation covered many different points about data science and industrial engineering. First, general explanations about engineering were given. Then, it focused on the complex problems that make industrial engineering different from other engineering fields and how these problems can be solved by breaking them into smaller parts. After that, the requirements of data science and the skills of industrial engineers that match with data science were discussed. The conversation also mentioned different branches of data science, such as generalist data science, predictive modeling data science, and machine learning data science, and explained the areas and methods they use. Finally, the technical and soft skills a data scientist should have (like analytical thinking and problem-solving) were discussed.
+
+The conversation was very clear and well-organized, and it was really informative and helpful.
+
+**Questions:**
+
+**1-)** Why have data science methods become very popular in recent years? Explain one or more reasons.
+
+**Answer:** Data is collected in very large amounts. This makes systems more complex and harder to control. To handle these complex data sets, the use of data science methods has become common.
+
+**2-)**Which of the following is NOT a quality sought in a data scientist?\
+A-)Analytical thinking, ability to define problems based on data, and draw conclusions\
+B-) Problem-solving skills\
+C-) Basic probability and statistics skills\
+D-) Communication skills\
+E-) Only having strong programming skills
+
+**Answer:** Only having strong programming skills
+
+## (b) R Scripts and Outputs
 
 ```{r}
 library(dslabs)
@@ -42,7 +61,8 @@ sorted_Na <- sort(column_Na, decreasing = TRUE)
 head(sorted_Na, 8)
 
 ```
-I used AI to help me build this loop. The prompt I used was: I have a dataset in R and I want to fill the NA values based on the column type. How can I set up a loop that puts a specific number if the column is numeric, and a specific string if it's text or a factor? I also want to keep the original data frame intact.
+
+*\*\*I used AI to help me build this loop. The prompt I used was: I have a dataset in R and I want to fill the NA values based on the column type. How can I set up a loop that puts a specific number if the column is numeric, and a specific string if it's text or a factor? I also want to keep the original data frame intact.*
 
 ```{r}
 polls_modified <- polls_us_election_2016
@@ -75,5 +95,3 @@ Since there is no NA value remaining this function will gonna be FALSE
 ```{r}
 anyNA(polls_modified)
 ```
-
-## (b)
