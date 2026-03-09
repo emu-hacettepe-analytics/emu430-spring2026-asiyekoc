@@ -9,15 +9,23 @@ sidebar: false
 
 # Work Experience
 
-## Internships
+## Employements
 
 1.  TÜBİTAK BİLGEM, Contracts Department Candidate Researcher, October 2025 - ongoing
 
-2.  ASELSAN, Intern, August 2025 - September 2025
+2.  Turkish Aerospace, Business Analytics Candidate Engineer, December 2024, June 2025
 
-3.  Turkish Aerospace, Business Analytics Department Candidate Engineer, December 2024, July 2025
+## Internships
 
-4.  Zyrone Dynamics, Intern, July 2024 - August 2024
+1.  ASELSAN, ILS Planning and Analysis Intern, August 2025 - September 2025
+
+2.  Turkish Aerospace, Business Analytics Intern, July 2025, August 2025
+
+3.  Zyrone Dynamics, Production Intern, July 2024 - August 2024
+
+# Projects
+
+Graduation project at ASELSAN
 
 # Competencies
 
